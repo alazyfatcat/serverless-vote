@@ -14,7 +14,6 @@ exports.handler = async (event) => {
     votesArray = [0, 0, 0, 0];
   }
   console.log(JSON.stringify(votesArray));
-  return JSON.stringify(votesArray);
 
   return {
     statusCode: 200,
